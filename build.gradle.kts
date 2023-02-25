@@ -3,26 +3,26 @@ import org.gradle.internal.os.OperatingSystem
 import org.gradle.nativeplatform.platform.internal.DefaultNativePlatform
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
-group = "org.openrndr.template"
-version = "0.4.0"
+group = "dev.reeve"
+version = "1.0.0"
 
 val applicationMainClass = "TemplateProgramKt"
 
 /**  ## additional ORX features to be added to this project */
 val orxFeatures = setOf<String>(
-//  "orx-boofcv",
-    "orx-camera",
-//  "orx-chataigne",
+    //  "orx-boofcv",
+    //    "orx-camera",
+    //  "orx-chataigne",
     "orx-color",
     "orx-compositor",
-//  "orx-dnk3",
-//  "orx-easing",
-//  "orx-file-watcher",
-//  "orx-filter-extension",
+    //  "orx-dnk3",
+    //  "orx-easing",
+    //  "orx-file-watcher",
+    //  "orx-filter-extension",
     "orx-fx",
-//  "orx-glslify",
-//  "orx-gradient-descent",
-//    "orx-git-archiver",
+    //  "orx-glslify",
+    //  "orx-gradient-descent",
+    //    "orx-git-archiver",
     "orx-gui",
     "orx-image-fit",
 //  "orx-integral-image",
